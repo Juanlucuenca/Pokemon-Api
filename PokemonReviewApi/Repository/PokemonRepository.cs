@@ -3,7 +3,7 @@ using PokemonReviewApi.Models;
 
 namespace PokemonReviewApi;
 
-public class PokemonRepository
+public class PokemonRepository : IPokemonRepository
 {
     private readonly DataContext _context;
 
