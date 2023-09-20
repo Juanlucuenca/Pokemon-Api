@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj": {}
+    "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj": {}
   },
   "projects": {
-    "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj": {
+    "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj",
+        "projectUniqueName": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj",
         "projectName": "PokemonReviewApi",
-        "projectPath": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\obj\\",
+        "projectPath": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj",
+        "packagesPath": "/Users/juanlucascuenca/.nuget/packages/",
+        "outputPath": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/juanlucascuenca/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }
