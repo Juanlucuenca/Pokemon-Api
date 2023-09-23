@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PokemonReviewApi.Data;
 
@@ -11,9 +12,11 @@ using PokemonReviewApi.Data;
 namespace PokemonReviewApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230922135947_SecondMigration")]
+    partial class SecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -205,7 +208,7 @@ namespace PokemonReviewApi.Migrations
             modelBuilder.Entity("PokemonReviewApi.Models.PokemonCategory", b =>
                 {
                     b.HasOne("PokemonReviewApi.Models.Category", "Category")
-                        .WithMany("PokemonCategory")
+                        .WithMany("PokemonCategoy")
                         .HasForeignKey("CateogoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -261,7 +264,7 @@ namespace PokemonReviewApi.Migrations
 
             modelBuilder.Entity("PokemonReviewApi.Models.Category", b =>
                 {
-                    b.Navigation("PokemonCategory");
+                    b.Navigation("PokemonCategoy");
                 });
 
             modelBuilder.Entity("PokemonReviewApi.Models.Country", b =>

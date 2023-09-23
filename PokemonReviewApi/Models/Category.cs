@@ -4,6 +4,6 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public ICollection<PokemonCategory> PokemonCategoy { get; set; }
+        public ICollection<PokemonCategory> PokemonCategory { get; set; }
     }
 }

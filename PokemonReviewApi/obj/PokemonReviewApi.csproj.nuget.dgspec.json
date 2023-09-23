@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj": {}
+    "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj": {}
   },
   "projects": {
-    "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj": {
+    "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj",
+        "projectUniqueName": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj",
         "projectName": "PokemonReviewApi",
-        "projectPath": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/PokemonReviewApi.csproj",
-        "packagesPath": "/Users/juanlucascuenca/.nuget/packages/",
-        "outputPath": "/Users/juanlucascuenca/Documents/PokemonReviewApi/PokemonReviewApi/obj/",
+        "projectPath": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\PokemonReviewApi.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Juan\\development\\c#\\PokemonReviewApi\\PokemonReviewApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanlucascuenca/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -83,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

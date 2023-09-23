@@ -85,3 +85,5 @@ C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\obj\Debug\net6.0\refint
 C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\obj\Debug\net6.0\PokemonReviewApi.pdb
 C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\obj\Debug\net6.0\PokemonReviewApi.genruntimeconfig.cache
 C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\obj\Debug\net6.0\ref\PokemonReviewApi.dll
+C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Juan\development\c#\PokemonReviewApi\PokemonReviewApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
